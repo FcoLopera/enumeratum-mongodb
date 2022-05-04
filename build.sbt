@@ -27,7 +27,7 @@ libraryDependencies ++= Seq(
   "org.slf4j"              % "slf4j-api"             % slf4jVersion % Test,
   "org.slf4j"              % "slf4j-simple"          % slf4jVersion % Test,
   "org.scalatest"          %% "scalatest"            % "3.1.1" % Test,
-  "com.github.simplyscala" %% "scalatest-embedmongo" % "0.3.0" % Test
+  //"com.github.simplyscala" %% "scalatest-embedmongo" % "0.3.0" % Test //ADDED LOCALLY WAITING FOR PR TO BE AVAILABLE
 )
 
 addCommandAlias(
