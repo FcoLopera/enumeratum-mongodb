@@ -1,5 +1,8 @@
 name := "enumeratum-mongodb"
 
+ThisBuild / scalaVersion := "2.13.8"
+ThisBuild / version := "0.2.0"
+
 inThisBuild(
   List(
     organization := "com.github.alonsodomin",
@@ -24,7 +27,7 @@ libraryDependencies ++= Seq(
   "org.slf4j"              % "slf4j-api"             % slf4jVersion % Test,
   "org.slf4j"              % "slf4j-simple"          % slf4jVersion % Test,
   "org.scalatest"          %% "scalatest"            % "3.1.1" % Test,
-  "com.github.simplyscala" %% "scalatest-embedmongo" % "0.2.4" % Test
+  "com.github.simplyscala" %% "scalatest-embedmongo" % "0.3.0" % Test
 )
 
 addCommandAlias(
